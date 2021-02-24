@@ -41,7 +41,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  ProductId=p.ProductId,ProductName=p.ProductName,
                                  CategoryName=c.CategoryName,UnitsInStock=p.UnitsInStock
                              };
-                return result.ToList();
+                return result.ToList(); 
             }
         }
     }
